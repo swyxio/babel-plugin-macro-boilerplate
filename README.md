@@ -6,10 +6,14 @@ This is a boilerplate monorepo for people writing babel plugins in normal plugin
 
 ## Prerequisites
 
-You should have read through the [babel handbook](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md) and (optionally) the [babel-plugin-macros](https://babeljs.io/blog/2017/09/11/zero-config-with-babel-macros) blogpost.
+You should have read through the [babel handbook][babel handbook] and (optionally) the [babel-plugin-macros][babel-plugin-macros] blogpost.
 
 ## Usage
 
 Clone, not fork, this repo. Write your plugin and tests in `babel-plugin-boilerplate`, and then handle the macro portion in `boilerplate.macro`. Rename both of them to whatever your new name is.
 
 When you are done writing and testing, run `lerna publish` from this root level and you should be good to go.
+
+
+[babel-plugin-macros]: https://babeljs.io/blog/2017/09/11/zero-config-with-babel-macros
+[babel handbook]: https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md
